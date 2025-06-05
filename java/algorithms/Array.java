@@ -51,5 +51,6 @@ public class Array {
         int[] drr = new int[]{1,2,4,5,6,7};
         System.out.println(lowerBound(drr,3));
         System.out.println(upperBound(drr,3));
+        Collections.swap(crr,10,9);        
     }
 }
