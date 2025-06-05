@@ -1,5 +1,5 @@
 # competative programming 
-This repo is helpful of fast coding in contest like lc,cc,cf.... This contains most used DSA.In future I keep on updating if learn any new thing or if it neccessary to add new things 
+This repo is helpful for fast coding in contest like lc,cc,cf.... This contains most used DSA.In future I keep on updating if learn any new thing or if it neccessary to add new things 
 - This repo contains codes in `java` and `c++`
 ## Topics 
 ### Algorithms
