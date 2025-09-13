@@ -52,5 +52,24 @@ public class Array {
         System.out.println(lowerBound(drr,3));
         System.out.println(upperBound(drr,3));
         Collections.swap(crr,10,9);        
+        int n = 7;
+
+
+        
+        int mask = 0b1010010;
+        
+        // First, build the complement mask
+        int full = (1 << n) - 1;   // mask with all bits set
+        int unsetMask = full ^ mask;  // bits available (unset)
+        
+        for (int sub = unsetMask; sub > 0; sub = (sub - 1) & unsetMask) {
+            // sub is a subset of unset bits
+            int newMask = mask | sub;  
+            // do something with newMask
+        }
+
+
+
+        
     }
 }
